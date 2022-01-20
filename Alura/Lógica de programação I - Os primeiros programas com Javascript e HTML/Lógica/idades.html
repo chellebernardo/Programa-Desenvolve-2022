@@ -1,0 +1,55 @@
+<!-- Resolução, miau -->
+
+<meta charset="UTF-8">
+
+<script>
+    document.write("Flávio nasceu em " + (2016 - 39) + "<br>");
+    document.write("Joaquim nasceu em " + (2016 - 20) + "<br>");
+    document.write("Barney nasceu em " + (2016 - 40) + "<br><br>");
+</script>
+
+<!-- Média das idades -->
+<script>
+
+    var ano = 2016;
+
+    document.write("Flávio tem " + (ano - 1977) + " anos");
+    document.write("<br>");
+    document.write("Joaquim tem " + (ano - 1996) + " anos");
+    document.write("<br>");
+
+    ano = 2017;
+    document.write("Barney tem " + (ano - 1976) + " anos");
+    document.write("<br><br>");
+
+    var idadeFlavio = 39;
+    var idadeJoaquim = 20;
+    var idadeBarney = 41;
+    var media = (idadeFlavio + idadeJoaquim + idadeBarney) / 3;
+    document.write("A média das idades é " + Math.round(media) + "!");
+
+    pulaLinha();
+    pulaLinha();
+    document.write("<h3>Utilizando a função pulaLinha...</h3>");
+
+    function pulaLinha(){
+        document.write("<br><br>")
+    }
+    pulaLinha();
+    document.write("Flávio tem " + (ano - 1977) + " anos");
+    pulaLinha();
+    document.write("Joaquim tem " + (ano - 1996) + " anos");
+
+    pulaLinha();
+    pulaLinha();
+    document.write("<h3>Chamando função dentro de função: </h3>");
+
+    function mostra(frase){
+        document.write(frase);
+        pulaLinha();
+    }
+
+    mostra("Flávio tem " + (ano - 1977) + " anos");
+    mostra("Joaquim tem " + (ano - 1996) + " anos");
+
+</script>
