@@ -1,0 +1,86 @@
+<meta charset="UTF-8">
+
+<script>
+    function pulaLinha() {
+        document.write("<br><hr><br>");
+    }
+
+    function mostra(frase) {
+        document.write("<big>" + frase + "</big>");
+        pulaLinha();
+    }
+
+    function calculaImc(peso, altura) {
+
+        var imc = peso / (altura * altura);
+        mostra("O cálculo do seu IMC é: " + Math.round(imc));
+    }
+
+    calculaImc(71, 1.71);
+    calculaImc(68, 1.72);
+</script>
+
+<script>
+
+    function pulaLinha() {
+        document.write("<br><hr><br>");
+    }
+
+    function mostra(frase) {
+        document.write("<big>" + frase + "</big>");
+        pulaLinha();
+    }
+
+    // Utilizando o return
+
+    function calculaImc(peso, altura) {
+
+        var imc = peso / (altura * altura);
+        return imc;
+
+        // Outra opção de retorno
+        // return peso / (altura*altura);
+    }
+
+    var imcFlavio = calculaImc(71, 1.71);
+    var imcAmigo = calculaImc(68, 1.72);
+
+    /*
+    Outra forma de somar os IMCS
+
+    var totalImc = calculaImc(71, 1.71) + calculaImc(68, 1.72);
+
+    mostra(totalImc);
+    */
+
+    mostra(imcFlavio);
+    mostra(imcAmigo);
+</script>
+
+<script>
+    // Interagindo com o usuário
+
+    function pulaLinha() {
+        document.write("<br><hr><br>");
+    }
+
+    function mostra(frase) {
+        document.write("<big>" + frase + "</big>");
+        pulaLinha();
+    }
+
+    function calculaImc(peso, altura) {
+
+        return peso / (altura*altura);
+    }
+
+    var nome = prompt("Olá, usuário. Qual é o seu lindo nome?");
+    var pesoInformado = prompt (nome + ", por gentileza, informe seu peso: ");
+    var alturaInformada = prompt (nome + ", por gentileza, informe sua altura: ");
+
+    // Outra forma de somar os IMCS
+
+    var imc = calculaImc(pesoInformado, alturaInformada);
+
+    mostra(nome + ", o seu IMC é de: " + imc);
+</script>

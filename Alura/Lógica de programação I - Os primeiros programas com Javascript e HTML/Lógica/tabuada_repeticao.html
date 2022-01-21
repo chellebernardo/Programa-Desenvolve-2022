@@ -1,0 +1,24 @@
+<meta charset="UTF-8">
+<script>
+    function pulaLinha() {
+        document.write("<br><hr><br>");
+    }
+
+    function mostra(frase) {
+        document.write("<big>" + frase + "</big>");
+        pulaLinha();
+    }
+
+    var multiplicador = 0;
+    var numeroDigitado = parseInt(prompt("Digite o número da tabuada que queres saber: "));
+
+    while (multiplicador <= 10){
+        mostra(numeroDigitado + " x " + multiplicador + " = " + (numeroDigitado * multiplicador));
+        multiplicador++;
+    }
+
+    for(var multiplicador = 1; multiplicador<=10; multiplicador++){
+        mostra(numeroDigitado + " x " + multiplicador + " = " + (numeroDigitado * multiplicador));
+    }
+    mostra("FIM.")
+</script>
