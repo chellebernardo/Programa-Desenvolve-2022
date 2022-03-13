@@ -1,0 +1,18 @@
+Usando MySQL por linha de comando
+
+Entrar na pasta do programa 
+
+cd\ - volta uma pasta
+>cd "Nome da pasta" - entra na pasta
+
+Exemplo:
+
+C:\Program Files\MySQL Server 8.0\bin>mysql -h localhost -u root -p
+
+Onde -h é o host que você vai usar, -u é o usuário que você quer acessar e -p é a senha que o MySQL irá pedir.
+
+A partir daqui é só executar a command line que você precisa!
+
+use nome-do-db - equivale ao double clique no workbench pra selecionar o db.
+
+EXIT - para sair do db e voltar pro SO.
