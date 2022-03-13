@@ -1,0 +1,62 @@
+MYSQL - História
+
+CARACTERÍSTICAS: 
+
+• Servidor
+• Portabilidade
+• Multithreads
+• Formas de Armazenamento
+• Velocidade
+• Desempenho
+• Segurança
+• Capacidade
+• Aplicabilidade
+• Logs
+
+Agora, iremos entender sobre a história do MySQL e mencionar algumas de suas características.
+
+Já conversamos um pouco sobre a história do SQL, quando os bancos relacionais estavam começando a ser popularizados. Com isso, três desenvolvedores, o David Axmark, Allan Larsson e Michael Widenius buscavam elaborar uma interface SQL que fosse compatível com o que estava surgindo no mercado de banco de dados.
+
+No início, eles utilizavam APIs de terceiros para efetuar o comando SQL que buscavam informações de alguns outros bancos de dados de mercado. Porém, não obtiveram um retorno satisfatório e, por esse motivo, começaram a desenvolver sua própria API de consulta e não apenas isso, também o seu próprio banco de dados, utilizando a linguagem C++.
+
+Foi a partir disso que se iniciou o projeto MySQL. Por ser apresentado como um software livre (open source), isto é, a comunidade tem acesso ao código-fonte para realizar alterações e contribuir com melhorias para o banco de dados, se tornou bastante popular. Também, se mostrou um banco bastante ágil para a época, além de apresentar um excelente mecanismo de multitarefas e de multi-usuário.
+
+Com isso, o MySQL mostrou que o seu servidor poderia ser usado e aguentava bem a escalabilidade robusta em missão crítica, como, por exemplo, em um banco que não pode parar a operação dos serviços prestados.
+
+Missão crítica: todo sistema tecnológico fundamental para que os serviços de uma empresa continuem operando sem interrupções.
+
+Como consequência, o MySQL se popularizou como software livre, inclusive de modo corporativo. No ano de 2008, o MySQL AB, empresa que gerenciava o código desse banco de dados, foi comprada por um bilhão de dólares por uma empresa chamada Sun Microsystems.
+
+Na época, a Sun Microsystems era uma empresa grande, que a princípio era da área de hardware e depois começou a entrar para a de software. Essa companhia também era responsável pela criação do Java e adiquiriu a projeto MySQL pelo valor de um bilhão de dólares.
+
+Após um ano, em 2009 a Sun Microsystems foi comprada pela Oracle e passou a ter propriedade sobre todos os produtos. Por essa questão, a Oracle é hoje dona do Java e do MySQL. Houve um grande barulho no mercado naquele tempo, já que a Oracle possuía o seu banco de dados relacional robusto e o MySQL estava se mostrando um concorrendo a altura.
+
+Claro que a comunidade open source quando o MySQL foi vendido criou outro banco de dados, o MariaDB, que se tornou o sucessor do MySQL. E a Oracle seguiu desenvolvendo o MySQL e por ser uma opção de baixo custo para as empresas corporativas e de mercado online, vinha crescendo bastante.
+
+A Oracle permitiu que os usuários pudessem escolher entre usar o programa como produto open source, sob os termos da licença GNU (GNU's Not Unix!) ou comprar a licença padrão comercial do MySQL. Para esse último caso, a Oracle oferecia algumas vantagens para as empresas que comprassem o MySQL de forma corporativa, como suporte mais rápido e acesso à alguma documentação específica.
+
+Porém, a licença oferecida de forma aberta, ainda mantém a eficiência característica apresentadas antes de ser comprada por essas empresas corporativas da área de tecnologia.
+
+Lembrando que o MySQL é um banco de dados relacional e compatível com a linguagem SEQUEL. Por isso, vamos aprender nesse treinamento o SQL utilizando o MySQL.
+
+O servidor do MySQL é robusto até certo ponto, já que deriva de características de multiacesso, integridade de dados, efetua o relacionamento entre tabelas, trabalha a concorrência quando vários usuários tentam acessar o mesmo dado na mesma tabela, realiza o controle de transações, entre outros processos.
+
+Outro aspecto importante é a portabilidade do banco de dados, o MySQL pode ser transacionado entre diversos sistemas. Isso significa que consigo desenvolver o banco de dados MySQL em Windowns e posteriormente utilizar no Linux ou Unix, sendo assim interplataforma.
+
+Ademais, o banco MySQL provém de várias APIs que permitem acessar os dados do MySQL usando DotNet, Java, Python, PHP, Java Script e JQuery, por exemplo. Isto é, as linguagens de programação que são mais usadas no mercado possuem APIs nativas para acesso ao MySQL.
+
+Outro atributo importante é o multithreads. O MySQL permite aumentar a velocidade de transações e facilita a integração da ferramenta com hardwares, permitindo a escalabilidade da performance. Isto quer dizer, caso tenha uma MySQL usando um servidor com determinado número de CPUs, é possível acrescentar que o banco de dados se adapta usando o máximo do hardware disponível.
+
+O banco de dados MySQL atua com diversas formas de armazenamento, que se adaptam às características das suas necessidades. Por exemplo, algumas formas priorizam a velocidade, enquanto outras o alto volume de armazenamento, tudo depende do objetivo pelo qual você utiliza o MySQL. Mas isso iremos conversar mais afundo na parte de administração.
+
+A velocidade é outro aspecto importante, já que o MySQL é considerado um dos bancos mais ágeis do mercado, sobretudo quando se utiliza funcionalidades ligadas à internet. Como exemplo, podemos citar sites de e-commerce e de aplicações de internet, já que na nuvem, como da Amazon, do Google e da Microsoft disponibilizam instâncias de MySQL com uma alta escalabilidade.
+
+Já sobre segurança, o MySQL possui internamente diversos mecanismos de segurança, o que o torna bastante seguro para o mercado. Além de permitir a segregação dos dados por usuários de acesso, isto é, a pessoa teria acesso somente ao que for permitido-lhe.
+s
+O MySQL permite também o armazenamento de uma abundância de dados, tornando a sua capacidade alta. Isso, claro, a depender das formas de armazenamento, se for escolhido a que prioriza o volume de dados, há um limite hoje de até 65 mil terabytes. Para bancos de dados desse tamanho talvez seja um pouco mais complexo recuperar e manipular os dados e será necessário ter um hardware adequado para tal demanda. Mas, a maioria das aplicações corporativas não precisam desse tamanho todo de armazenamento para trabalharem.
+
+Já referente a aplicabilidade, o MySQL não se aplica somente a utilidades de internet, mas também em publicações de desktop ou aplicações corporativas que chamamos On Premises, o local instalado no próprio servidor da empresa o banco de dados. Até mesmo pelo fato de que ele possui o que chamamos ODBCs (Open Database Connectivity) e JDBCs (Java Database Connectivity), que permitem realizar acessos rápidos ao banco de dados MySQL em aplicações desktop.
+
+E finalmente, vamos falar um pouco sobre o log. No MySQL há um forte gerenciamento de log, que registra tudo o que fazemos no banco. Isso é um ponto interessante quando é necessário realizar uma recuperação de dados ou se for preciso fazer o que é chamado réplica de servidores. Sendo uma técnica bastante usada quando temos um servidor chamado master e outro slave, tendo assim uma sincronização de dados.
+
+Por esse motivo, é o banco de dados mais usados em nuvem, já que possuem diversas replicações em diferentes lugares para caso um CPD, Centro de Processamento de Dados, cair, o outro continue operando e a aplicação siga tendo alta disponibilidade de acesso.

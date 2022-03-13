@@ -1,0 +1,140 @@
+Seja bem-vindo ao nosso curso sobre a Lei Geral de Proteção de Dados Pessoais (LGPD)
+Ao longo deste curso apresentaremos os pontos principais previstos nesta lei com ênfase no entendimento das mudanças e impactos nas relações digitais que ela trará para o Brasil a partir de 2021, quando entrará em vigência!
+
+Vamos a uma breve introdução ao tema!
+
+As empresas e o Governo deverão se adequar (em diferentes níveis, desde os controladores até o pessoal operacional), e alcança todo e qualquer segmento que tenha coletado dados em território nacional. Essa lei foi criada como uma resposta às cobranças para que o Brasil tivesse uma legislação para proteção de dados no mesmo nível que a Europa (GDPR). Assim, o Governo e as companhias precisarão do consentimento das pessoas para a coleta, o armazenamento, o manuseio, o transporte e o descarte de dados, de forma transparente e segura.
+
+A LGPD prevê a aplicação de multas e sanções gravíssimas, sem contar a repercussão negativa da reputação da empresa nas mídias sociais, ações judiciais de indenização e até mesmo barreiras comerciais que poderão surgir pela não adequação.
+
+Desta forma, ao longo do curso, utilizaremos os conceitos da LGPD, visando a compreender os seus principais aspectos e as novas regras para a proteção dos dados pessoais.
+
+A partir da compreensão básica das determinações da lei e os seus impactos em caso de descumprimento, o aluno terá informações a respeito da aplicabilidade, dos requisitos para o tratamento de dados, os princípios e as melhores práticas para nortear os seus trabalhos, desde o desenvolvimento dos projetos até a fase de implantação e gestão de mudanças.
+
+Então fica aqui o convite para você fazer esse curso conosco e desde já começar a entender e se preparar para os impactos que Lei de Proteção de Dados Pessoais gerará em nossa rotina digital sob a ótica pessoal e profissional.
+
+Anotações:
+
+LGPD foi criada em resposta as cobranças feitas pela União Europeia para que o Brasil tivesse uma lei de proteção de dado com o mesmo nível da Europeia.
+
+Discussão liderada pela Sociedade Novo Marco e Legal
+
+Esse novo marco legal traz direitos, obrigações, diversas responsabilidades. É uma autoridade criada para fiscalizar, entre outras funções, tem competência e atribuição para acompanhar todo esse desenvolvimento e cumprimento da legislação de proteção de dados.
+
+É aplicada nos meios físicos e digitais, ou seja, em todo tipo de tratamento ou processamento envolvendo os dados pessoais.
+
+Benefícios
+
+Ampliar a visão de negócios
+	Fornecedores, Parceiro e Colaboradores
+
+Respeito à Privacidade
+Reavaliar oportunidades
+Expansão dos negócios
+
+Projeto de Conclusão de Curso
+
+i - Business Drivers
+
+Receita com serviço em tempo real
+Geolocalização feita com base em satélite
+Operação satisfatória x Disponibilidade 24/7
+Privacidade (LGPD)
+
+ii - Requisitos Funcionais
+Sistema deve comtemplar funcionalidades que permitem de forma intuitiva a inserção dos dados
+
+ii - Requisitos Não Funcionais
+Disponibilidade
+Tolerância a falhas
+Tempo de resposta em ms
+Integridade dos dados
+
+iv - Engenharia
+Deverá suportar requisitos funcionais e não funcionais dando ao sistema a estrutura adequada para que ele funcione adequadamente
+
+v - Tecnologia
+Mecanismos e plataformas adequadas para que esse sistema seja entregue da forma que foi articulada pelos serviços
+
+“A Lei nº 13.709/2018 é um novo marco legal brasileiro de grande impacto, tanto para as instituições privadas como para as públicas, por tratar da proteção dos dados pessoais dos indivíduos em qualquer relação que envolva o tratamento de informações classificadas como dados pessoais, por qualquer meio, seja por pessoa natural, seja por pessoa jurídica. É uma regulamentação que traz princípios, direitos e obrigações relacionados ao uso de um dos ativos mais valiosos da sociedade digital, que são as bases de dados relacionados às pessoas”
+
+(PECK, Patrícia. Proteção de dados pessoais. Comentários à Lei nº 13.709/2018 LGPD. São Paulo: Saraiva, 2018, p. 15).
+
+“O espírito da lei foi proteger os direitos fundamentais de liberdade e de privacidade e o livre desenvolvimento da personalidade da pessoa natural, trazendo a premissa da boa-fé para todo o tipo de tratamento de dados pessoais, que passa a ter que cumprir uma série de princípios, de um lado, e de itens de controles técnicos para a governança da segurança das informações, de outro lado, dentro do ciclo de vida do uso da informação que identifique ou passa identificar uma pessoa e esteja relacionada a ela, incluindo a categoria de dados sensíveis”. (Op. Cit., p. 16).
+
+Bibliografia: PECK, Patrícia. Proteção de dados pessoais. Comentários à Lei nº 13.709/2018 LGPD. São Paulo: Saraiva, 2018.
+
+“O motivo que inspirou o surgimento de regulamentações de proteção de dados pessoais de forma mais consistente e consolidada a partir dos anos 1990 está diretamente relacionado ao próprio desenvolvimento do modelo de negócios da economia digital, que passou a ter uma dependência muito maior dos fluxos internacionais de bases de dados, especialmente os relacionados às pessoas, viabilizados pelos avanços tecnológicos e pela globalização. Desse modo, houve a necessidade de resgatar e repactuar o compromisso das instituições com os indivíduos, cidadãos desta atual sociedade digital, no tocante à proteção e à garantia dos direitos humanos fundamentais, como o da privacidade, já celebrados desde a Declaração Universal dos Direitos Humanos (DUDH) de 1948.
+
+A base desse pacto é a liberdade, mas o fiel da balança é a transparência. Sendo assim, as leis sobre proteção de dados pessoais têm uma característica muito peculiar de redação principiológica e de amarração com indicadores mais assertivos, de ordem técnica, que permitam auferir de forma auditável se o compromisso está sendo cumprido, por meio da análise de trilhas de auditoria e da implementação de uma série de itens de controle para uma melhor governança dos dados pessoais”
+
+(PECK, Patrícia. Proteção de dados pessoais. Comentários à Lei nº 13.709/2018 LGPD. São Paulo: Saraiva, 2018, pp. 17 e 18).
+
+Conforme dispõe o artigo 5º, da LGPD:
+
+dado pessoal: informação relacionada a pessoa natural identificada ou identificável;
+
+dado pessoal sensível: dado pessoal sobre origem racial ou étnica, convicção religiosa, opinião política, filiação a sindicato ou a organização de caráter religioso, filosófico ou político, dado referente à saúde ou à vida sexual, dado genético ou biométrico, quando vinculado a uma pessoa natural;
+
+dado anonimizado: dado relativo a titular que não possa ser identificado, considerando a utilização de meios técnicos razoáveis e disponíveis na ocasião de seu tratamento;
+banco de dados: conjunto estruturado de dados pessoais, estabelecido em um ou em vários locais, em suporte eletrônico ou físico;
+
+titular: pessoa natural a quem se referem os dados pessoais que são objeto de tratamento;
+controlador: pessoa natural ou jurídica, de direito público ou privado, a quem competem as decisões referentes ao tratamento de dados pessoais;
+
+operador: pessoa natural ou jurídica, de direito público ou privado, que realiza o tratamento de dados pessoais em nome do controlador;
+
+encarregado: pessoa indicada pelo controlador para atuar como canal de comunicação entre o controlador, os titulares dos dados e a Autoridade Nacional de Proteção de Dados;
+agentes de tratamento: o controlador e o operador;
+
+tratamento: toda operação realizada com dados pessoais, como as que se referem a coleta, produção, recepção, classificação, utilização, acesso, reprodução, transmissão, distribuição, processamento, arquivamento, armazenamento, eliminação, avaliação ou controle da informação, modificação, comunicação, transferência, difusão ou extração;
+
+anonimização: utilização de meios técnicos razoáveis e disponíveis no momento do tratamento, por meio dos quais um dado perde a possibilidade de associação, direta ou indireta, a um indivíduo;
+
+consentimento: manifestação livre, informada e inequívoca pela qual o titular concorda com o tratamento de seus dados pessoais para uma finalidade determinada;
+
+bloqueio: suspensão temporária de qualquer operação de tratamento, mediante guarda do dado pessoal ou do banco de dados;
+
+eliminação: exclusão de dado ou de conjunto de dados armazenados em banco de dados, independentemente do procedimento empregado;
+
+transferência internacional de dados: transferência de dados pessoais para país estrangeiro ou organismo internacional do qual o país seja membro;
+
+uso compartilhado de dados: comunicação, difusão, transferência internacional, interconexão de dados pessoais ou tratamento compartilhado de bancos de dados pessoais por órgãos e entidades públicos no cumprimento de suas competências legais, ou entre esses e entes privados, reciprocamente, com autorização específica, para uma ou mais modalidades de tratamento permitidas por esses entes públicos, ou entre entes privados;
+
+órgão de pesquisa: órgão ou entidade da administração pública direta ou indireta ou pessoa jurídica de direito privado sem fins lucrativos legalmente constituída sob as leis brasileiras, com sede e foro no País, que inclua em sua missão institucional ou em seu objetivo social ou estatutário a pesquisa básica ou aplicada de caráter histórico, científico, tecnológico ou estatístico;
+
+autoridade nacional: órgão da administração pública responsável por zelar, implementar e fiscalizar o cumprimento desta Lei em todo o território nacional.
+
+A LGPD - Lei Geral de Proteção de Dados define que o titular dos dados pessoais tem direito a obter do controlador, em relação aos dados do titular por ele tratados, a qualquer momento e mediante requisição: confirmação da existência de tratamento; acesso aos dados; correção de dados incompletos, inexatos ou desatualizados; anonimização, bloqueio ou eliminação de dados desnecessários, excessivos ou tratados em desconformidade com a LGPD; portabilidade dos dados a outro fornecedor de serviço ou produto, mediante requisição expressa; portabilidade dos dados a outro fornecedor de serviço ou produto, mediante requisição expressa; eliminação dos dados pessoais tratados com o consentimento do titular, nos limites da lei; informação das entidades públicas e privadas com as quais o controlador realizou uso compartilhado de dados; informação sobre a possibilidade de não fornecer consentimento e sobre as consequências da negativa; revogação do consentimento.
+
+Elaboração/Atualização: os dados estão sendo coletados conforme a Política de Privacidade informada?
+
+Quais os dados coletados? Nome, RG, CPF, endereço, dados bancários, dados dos veículos, contatos, preferências.
+
+Finalidades.
+
+Consentimento, Não Consentimento e Revogação do Consentimento.
+
+Transparência: manutenção de registros internos; melhoria de produtos e serviços; marketing, cookies.
+
+Segurança.
+
+Parceiros comerciais, produtos e serviços.
+
+Responsabilidades.
+
+Dados do Controlador.
+
+Dados do Encarregado (DPO - Data Protection Officer).
+
+Informações sobre o compartilhamento de dados.
+
+Descarte de Dados e Período.
+
+Direitos do Titular de Dados.
+
+Boas Práticas.
+
+Treinamento de Equipes.
+
+Atuação das Equipes: papeis e responsabilidades; documentos e registros
